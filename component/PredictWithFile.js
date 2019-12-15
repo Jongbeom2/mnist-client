@@ -40,16 +40,17 @@ const predictWithFile = (props) => {
 	const handleSubmit = () => {
 		const formData = new FormData();
 		formData.append('file', data);
-		return axios.post("http://localhost:5000/number", formData, {
+		return axios.post("https://app-mnist.herokuapp.com/number", formData, {
 			headers: {
 				mode: 'no-cors',
 				'Access-Control-Allow-Origin': '*'
 			}
 		}).then(res => {
-			console.log(res);
+			alert('결과는 ' + res.data +' 입니다.');
 			setResult(res.data);
+			console.log(res);
 		}).catch(err => {
-			alert('실패');
+			alert('실패했습니다.')
 			console.log(err);
 		})
 	}
