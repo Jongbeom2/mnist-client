@@ -76,7 +76,7 @@ const Guide = (props) => {
                     이전
                   </Button>
                   <Button variant="contained" color="primary" onClick={handleNext} style={{width: '100px'}}>
-                    {activeStep === steps.length - 1 ? '왼료' : '다음'}
+                    {activeStep === steps.length - 1 ? '완료' : '다음'}
                   </Button>
                 </div>
               </div>

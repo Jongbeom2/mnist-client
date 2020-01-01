@@ -13,7 +13,7 @@ const Main = () => {
 	return (
 		<div >
 			<AppBar position="static">
-				<Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
+				<Tabs value={value} onChange={handleChange}>
 					<Tab label = "홈"/>
 					<Tab label = "가이드라인"/>
 					<Tab label = "파일 업로드"/>
