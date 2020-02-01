@@ -40,7 +40,7 @@ const predictWithFile = (props) => {
 	const handleSubmit = () => {
 		const formData = new FormData();
 		formData.append('file', data);
-		return axios.post("https://app-mnist.herokuapp.com/number", formData, {
+		return axios.post("https://jb-mnist-python.herokuapp.com/number", formData, {
 			headers: {
 				mode: 'no-cors',
 				'Access-Control-Allow-Origin': '*'
