@@ -12,28 +12,3 @@ https://mnist-33527.web.app/
 ### 개발 블로그 링크
 
 https://jongbeom-dev.tistory.com/86?category=847760
-
-## Available Scripts
-
-이 프로젝트에서는 다음의 스크립트를 이용한다.
-
-### `npm run dev`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `public` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-### `firebase deploy`
-
-App is deployed to firebase server.
-Url of the deployed app is [https://mnist-33527.web.app/](https://mnist-33527.web.app/)
