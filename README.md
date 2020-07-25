@@ -1,14 +1,26 @@
-### 배포 링크
-https://mnist-33527.web.app/
+# Mnist
+숫자 손글씨 데이터로 트레이닝된 모델을 이용하여 숫자 손글씨를 판별하는 애플리케이션
 
-### 프로젝트 설명
-최근 AI 분야의 딥러닝 공부를 시작했다. 석사 과정 중에 딥러닝 수업을 들었지만 시간이 지나니 기억이 나지 않아 처음부터 다시 시작했다. 딥러닝을 처음 공부하면 코딩에서 Hello World 같은 존재가 바로 Mnist일 것이다. Mnist는 숫자 손글씨 데이터로 딥러닝 모델을 트레이닝하고 테스트하는 프로젝트이다. Mnist를 공부하다가 이를 웹앱으로 만들어서 웹상에서 손글씨를 이미지를 업로드하고 결과를 확인하면 재밌겠다는 생각이 들었다. 그래서 AI 숫자 판별 앱이라는 이름으로 Mnist 웹앱을 개발해보았다.
+## 기능
+홈 - AI 숫자 판별 앱의 소개
+가이드라인 - 판별 대상인 손글씨 이미지를 만드는 방법 설명
+파일 업로드 - 파일을 업로드하여 AI가 판별한 결과 확인
 
-웹사이트는 3개의 페이지로 구성되어 있다.
-홈 - AI 숫자 판별 앱의 소개이다.
-가이드라인 - 판별 대상인 손글씨 이미지를 만드는 방법을 설명한다.
-파일 업로드 - 파일을 업로드하여 AI가 판별한 결과를 확인한다.
+## 사용 기술
+- Front-End : React
+- Back-End : Flask
+- Database : 없음
+- Deployed : Heroku
 
-### 개발 블로그 링크
+## Start producton mode
+1. 레포지토리의 소스코드 pull
+2. npm i
+3. npm start
+4. localhost:4000에서 확인
+5. 만약 client를 수정했다면 npm run build 선행 필요
 
-https://jongbeom-dev.tistory.com/86?category=847760
+## Start development mode
+1. 레포지토리의 소스코드 pull
+2. npm i
+3. npm run dev
+4. localhost:8080에서 확인
